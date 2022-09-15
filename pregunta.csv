@@ -1,31 +1,3 @@
-preguntas;1;2;3;4;respuesta correcta
-¿Cuánto dura un partido de futbol;10 minutos;9 inning;90 minutos;45 minutos;3
-¿Qué selección de futbol a ganado más mundiales?;Argentina;España;Alemania;Brasil;4
-¿Cuántos jugadores conforman un equipo de basketball?;5;11;6;8;1
-¿Cuál es la duración de un partido de basketball?;50 minutos;48 minutos;20 minutos;90 minutos;2
-¿Cuándo fue el primer mundial de futbol?;1960;1940;1985;1930;4
-¿Cuántos anillos ganó Michael Jordan?;3;6;10;8;2
-¿Cuántos inning tiene un juego de beisbol?;9 inning;7 inning;5 inning;8 inning;1
-¿Donde nació Diego Maradonna?;Italia;Francia;Brasil;Argentina;4
-¿Quién es el jugador con más cinturones en el Boxeo?;Floyd Mayweather;Roy Jones Jr;Manny Pacquiao;Oscar de la Hoya;2
-"¿Cuántos juegos se necesitan para ganar el set en Tenis?
-";4 sets;6 sets;8 sets;5 sets;2
-¿En que país se inventó el volleyball?;Indonesia;Brasil;Estados Unidos;Francia;3
-¿Que tipo de competición es el Giro de Italia?;Ciclismo;Futbol;Water Polo;Rugby;1
-¿Quién fue el número 1 en tenis en el año 2008?;Roger Federer;Rafael Nadal;Jimmy Connors;John Isner;2
-¿Cuántos títulos de motociclismo tiene Valentino Rossi;1;14;9;4;3
-¿Cuál es la última cinta que puedes conseguir en las Artes Marciales?;Azul;Verde;Marrón;Negra;4
-¿Si juegas a la NFL que deporte practicas?;Beisbol;Futbol;Golf;Futbol Americano;4
-¿Como se llama el lugar donde realizan carreras de caballos?;Hipódromo;Pista de carreras;Establo;Campo abierto;1
-¿Cada cuántos años se celebran los juegos olímpicos?;1 año;3 años;4 años;2 años;2
-¿Que pieza de ajedrez puede hacer un movimiento en forma de L?;Alfil;Reina;Caballo;Peón;3
-¿Cuál es el deporte nacional en Japón?;El juego del Calamar;Karate;Judo;Sumo;4
-¿Cuánto dura un partido de Rugby?;40 minutos;80 minutos;45 minutos;60 minutos;2
-¿Quién ha ganado la Liga Española más veces?;Inglaterra;Atlético de Madrid;F.C Barcelona;Real Madrid C.F;4
-¿Cuántos puntos vale un tiro libre en Basketball?;4 puntos;2 puntos;3 puntos;1 punto;1
-¿Qué parte de tu cuerpo no debe tocar el balón de futbol?;Pecho;Cabeza;Pierna;Mano;4
-¿Cuál de los siguientes deportes no usa pelota?;Golf;Tenis;Hockey;Polo;3
-¿Cuál equipo de futbol tiene más titulos en la Champions League?;Real Madrid F.C;Bayern;F.C Barcelona;Milan;1
-¿Cuál jugador de futbol posee más balones de oro?;Rafael Nadal;Lionel Messi;Luka Modric;Cristiano Ronaldo;2
-¿Quién tiene más Home Runs en la MLB?;Omar Vizquel;Alex Rodríguez;Babe Ruth;Barry Bonds;4
-¿Quién tiene la mayor cantidad de Touchdowns en la historia NFL?;Emitt Smith;Arroz Jerry;Marcus Allen;Tom Brady;2
+preguntas,1,2,3,4,respuesta_correcta
+Cuanto dura un partido de futbol,10 minutos,9 inning,90 minutos,45 minutos,90 minutos
+Que seleccion de futbol a ganado mas mundiales?,Argentina,EspaÃ±a,Alemania,Brasil,Brasil
