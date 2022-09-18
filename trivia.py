@@ -1,4 +1,3 @@
-from asyncore import write
 import csv
 
 import time
@@ -20,18 +19,13 @@ def trivia():
     jugador_2 = str(input('Jugador 2, ingrese su nombre:'))
 
 
-    # asignando variables
+    # asignando variables para puntajes
     puntaje_1 = 0
     puntaje_2 = 0
     
+    # iniciamos en la pregunta numero 1
     numero_pregunta = 1
-    numero_respuesta = 4
-
-    juegodetrivia = 1
-
-    # jugadorlist_1 = () # listado de respuestas jugador 1
-    # jugadorlist_2 = () # Listado de respuestas jugador 2
-    
+        
     # Empezamos a iterar las preguntas alojadas en nuestro archivo csv
     while True:
         for i in data:
@@ -60,7 +54,7 @@ def trivia():
 
                 if resp_j2 <= 0 or resp_j2 > 4:
                     print('Por favor selecciona una opción correcta')
-                    resp_j2 = input('{}: Seleccione el número de la respuesta correcta:'.format(jugador_1))
+                    resp_j2 = input('{}: Seleccione el número de la respuesta correcta:'.format(jugador_2))
                 else:
                     break
             
@@ -69,22 +63,23 @@ def trivia():
             print('La respuesta correcta es: {}'.format(respuesta))
 
             # Realizamos condicionales para sumar puntos a los jugadores
+            respuesta = int(respuesta)
             while True:
-                    if resp_j1 == respuesta:
-                        puntaje_1 +=50
-                        break
-                    elif resp_j2 == respuesta:
-                        puntaje_2 +=50
-                    else:
-                        break
+                if resp_j1 == respuesta:
+                    puntaje_1 +=50
+                    break
+                if resp_j2 == respuesta:
+                    puntaje_2 +=50
+                else:
+                    break
 
             # A continuación procedemos a concluir el ciclo de preguntar cerrando el bucle               
-            if numero_pregunta == 3:
+            if numero_pregunta == 4:
                 break
 
         # Procedemos a reflejar el ganador anidando condicionales.        
         if puntaje_1 > puntaje_2:
-            print('¡Felicidades! El {} a ganado'.format(jugador_1))
+            print('¡Felicidades! {} a ganado'.format(jugador_1))
             print('Lo siento {} ¡La proxima vez tendrás mas suerte!'.format(jugador_2))
         elif puntaje_2 > puntaje_1:
             print('¡Felicidades! El {} a ganado'.format(jugador_2))
